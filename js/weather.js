@@ -1,5 +1,5 @@
-/**
- * Created by hxsd on 2016/7/16.
+﻿/**
+ * Created by gueson 2016/7/16.
  */
 
 	var oBtn = document.getElementsByClassName('cityBtn')[0];
