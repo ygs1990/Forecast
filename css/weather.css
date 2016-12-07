@@ -1,0 +1,139 @@
+/*页面主体*/
+body {
+	background: url(../images/wea-bg.png) repeat-x;
+    font-family: arial,"微软雅黑";
+	}
+
+/*页面最外层*/
+.wrap {
+	width: 980px;
+	margin: 0 auto;
+	background: url(../images/wea-thound.png) repeat-x;
+	}
+
+/*城市下拉列表*/
+.top {
+	position: relative;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+.top:before {
+	position: absolute;
+	border-top: 1px solid rgba(255,255,255,0.9);
+}
+.city {
+	width: 80px;
+	height: 30px;
+	vertical-align: top;
+}
+.cityBtn {
+	width: 50px;
+	height: 30px;
+}
+.weather {
+	margin: 50px 0 35px;
+}
+
+/*天气左侧*/
+.weaLeft {
+	float: left;
+	width: 250px;
+}
+.weaCity {
+	padding: 5px 0;
+	font-size: 24px;
+	color: #fff;
+}
+.weaTime {
+	padding: 10px 0;
+	font-size: 16px;
+	color: rgba(255,255,255,0.8);
+}
+.air {
+	display: block;
+	padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+	font-size: 16px;
+	width: 75px;
+	background: #ffc000;
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+    border-radius: 3px;
+}
+.temperature {
+	font-size: 38px;
+	color: #fff;
+}
+.weatherType {
+	font-size: 18px;
+	color: #fff;
+}
+.weaWet ul li {
+	float: left;
+	padding: 10px 5px;
+	font-size: 18px;
+	color: #fff;
+}
+
+/*天气右侧*/
+.weaRight {
+	float: right;
+	width: 250px;
+	text-align: center;
+}
+.target {
+	height: 55px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #fff;
+}
+
+/*未来天气*/
+.futureWeather li{
+	float: left;
+	padding: 10px;
+	margin-left: 12px;
+	width: 160px;
+	height: 190px;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+}
+.futureWeather li:hover {
+    background: rgba(150,120,10,0.7);
+    transition: all 1s;
+    color: red;
+}
+.weaDate {
+    height: 24px;
+	font-size: 24px;
+	color: rgba(255,255,255,0.6);
+}
+.weaPic {
+	padding: 20px 0 10px 0;
+	height: 107px;
+	font-size: 24px;
+	color: #fff;
+}
+.weaOther {
+	position: relative;
+	width: 160px;
+	height: 24px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+}
+.weaOther:before {
+	content: '';
+	width: 160px;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	border-top: 1px solid rgba(255,255,255,0.4);
+}
+.weaOther span:nth-child(1) {
+    font-size: 22px;
+}
+.weaOther span:nth-child(2) {
+	font-size: 16px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/weather.css">
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/weather.js" defer></script>
+</head>
+<body>
+	<div class="wrap">
+        <!--页面顶部-->
+		<div class="top">
+            <!--城市列表-->
+			<select class="city">
+				<option value="北京">北京</option>
+				<option value="哈尔滨">哈尔滨</option>
+				<option value="长春">长春</option>
+				<option value="沈阳">沈阳</option>
+				<option value="天津">天津</option>
+				<option value="呼和浩特">呼和浩特</option>
+				<option value="乌鲁木齐">乌鲁木齐</option>
+				<option value="银川">银川</option>
+				<option value="西宁">西宁</option>
+				<option value="兰州">兰州</option>
+				<option value="西安">西安</option>
+				<option value="拉萨">拉萨</option>
+				<option value="成都">成都</option>
+				<option value="重庆">重庆</option>
+				<option value="贵阳">贵阳</option>
+				<option value="昆明">昆明</option>
+				<option value="太原">太原</option>
+				<option value="石家庄">石家庄</option>
+				<option value="济南">济南</option>
+				<option value="郑州">郑州</option>
+				<option value="合肥">合肥</option>
+				<option value="南京">南京</option>
+                <option value="上海" selected>上海</option>
+				<option value="武汉">武汉</option>
+				<option value="长沙">长沙</option>
+				<option value="南昌">南昌</option>
+                <option value="杭州">杭州</option>
+                <option value="福州">福州</option>
+				<option value="南宁">南宁</option>
+				<option value="海口">海口</option>
+				<option value="广州">广州</option>
+				<option value="香港">香港</option>
+				<option value="澳门">澳门</option>
+			</select>
+			<input type="button" value="更换" class="cityBtn">
+		</div>
+
+        <!--页面头部-->
+		<header class="weather clearFloat">
+			<div class="weaLeft">
+				<div class="weaInfo">
+					<h3 class="weaCity">上海</h3>
+					<p class="weaTime">18:00发布</p>
+					<span class="air">空气良 88</span>
+				</div>
+				<div class="weaDetail">
+					<strong class="temperature">高温 43°</strong>
+					<span class="weatherType">阵雨</span>
+				</div>
+				<div class="weaWet">
+					<ul class="clearFloat">
+						<li>湿度<span class="humidity"> 92</span>%</li>
+					</ul>
+				</div>
+			</div>
+			<div class="weaRight">
+				<img src="images/wea-logo.png">
+				<p class="target">做最专业、最准确的天气客户端</p>
+			</div>
+		</header>
+		<section >
+			<ul class="futureWeather clearFloat">
+				<li>
+					<p class="weaDate"></p>
+					<p class="weaPic"></p>
+					<p class="weaOther"><span class="degree">低温24°</span><span class="wind">微风级</span></p>
+				</li>
+				<li>
+					<p class="weaDate"></p>
+					<p class="weaPic"></p>
+					<p class="weaOther"><span class="degree">低温27°</span><span class="wind">西南风</span></p>
+				</li>
+				<li>
+					<p class="weaDate"></p>
+					<p class="weaPic"></p>
+					<p class="weaOther"><span class="degree">低温25°</span><span class="wind">微风</span></p>
+				</li>
+				<li>
+					<p class="weaDate"></p>
+					<p class="weaPic"></p>
+					<p class="weaOther"><span class="degree">低温29°</span><span class="wind">微风</span></p>
+				</li>
+				<li>
+					<p class="weaDate"></p>
+					<p class="weaPic"></p>
+					<p class="weaOther"><span class="degree">低温22°</span><span class="wind">西南风</span></p>
+				</li>
+			</ul>
+		</section>
+	</div>
+</body>
+</html>
